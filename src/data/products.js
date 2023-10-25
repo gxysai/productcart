@@ -1,77 +1,90 @@
 const products = [
   {
     id: 1,
-    name: "Fond - Neutral",
-    price: 160,
-    image: "http://dummyimage.com/350x350.png/dddddd/000000",
-    description: "Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    name: "JS Headphones",
+    price: 2999,
+    image:
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=2370&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description:
+      "JS headphones are designed to deliver high-quality sound seamlessly to the listener. ",
   },
   {
     id: 2,
-    name: "Pepper - Cubanelle",
-    price: 7624,
-    image: "http://dummyimage.com/350x350.png/cc0000/ffffff",
-    description: "Nulla facilisi.",
+    name: "Minimal Stool",
+    price: 399,
+    image:
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&q=80&w=2487&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Versatile and space-saving chair.",
   },
   {
     id: 3,
-    name: "Cleaner - Pine Sol",
-    price: 7457,
-    image: "http://dummyimage.com/350x350.png/cc0000/ffffff",
-    description: "Maecenas rhoncus aliquam lacus.",
+    name: "Vintage Polaroid Camera",
+    price: 4999,
+    image:
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&q=80&w=2370&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description:
+      "Its retro design and user-friendly features make it perfect to capture your timeless moments .",
   },
   {
     id: 4,
-    name: "Wakami Seaweed",
-    price: 4824,
-    image: "http://dummyimage.com/350x350.png/ff4444/ffffff",
-    description: "In hac habitasse platea dictumst.",
+    name: "Beautiful Cactus Plant 🌵",
+    price: 99,
+    image:
+      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&q=80&w=2372&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description:
+      "Add a touch of natural beauty to your home with this vibrant cactus plant. ",
   },
   {
     id: 5,
-    name: "Dried Figs",
-    price: 1112,
-    image: "http://dummyimage.com/350x350.png/5fa2dd/ffffff",
+    name: "Miniature Toy Car 🚗",
+    price: 149,
+    image:
+      "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?auto=format&fit=crop&q=80&w=2380&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
-      "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "Fuel your child's imagination with this sleek and stylish miniature toy car! ",
   },
   {
     id: 6,
-    name: "Kohlrabi",
+    name: "Trendy backpack",
     price: 4649,
-    image: "http://dummyimage.com/350x350.png/5fa2dd/ffffff",
-    description: "Praesent blandit.",
+    image:
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=2487&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Upgrade your daily adventures with this trendy backpack! ",
   },
   {
     id: 7,
-    name: "Kippers - Smoked",
+    name: "Refreshing Facial Toner",
     price: 3633,
-    image: "http://dummyimage.com/350x350.png/dddddd/000000",
+    image:
+      "https://plus.unsplash.com/premium_photo-1670537994863-5ad53a3214e0?auto=format&fit=crop&q=80&w=2535&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
-      "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
+      "Elevate your skincare routine with this rejuvenating facial toner",
   },
   {
     id: 8,
-    name: "Wine - White, Ej Gallo",
-    price: 8004,
-    image: "http://dummyimage.com/350x350.png/ff4444/ffffff",
+    name: "Minimal Facial Cream Container",
+    price: 199,
+    image:
+      "https://plus.unsplash.com/premium_photo-1675896042153-9dc08f9c9599?auto=format&fit=crop&q=80&w=2470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
-      "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "Its sleek design and premium materials not only protect your skincare products but also add a touch of sophistication to your vanity or bathroom shelf.",
   },
   {
     id: 9,
-    name: "The Pop Shoppe - Grape",
-    price: 2646,
-    image: "http://dummyimage.com/350x350.png/ff4444/ffffff",
-    description: "Nulla mollis molestie lorem. Quisque ut erat.",
+    name: "Portable Water Bottle",
+    price: 399,
+    image:
+      "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?auto=format&fit=crop&q=80&w=2487&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description:
+      "Stay hydrated on the go with this convenient and stylish water bottle! ",
   },
   {
     id: 10,
-    name: "Currants",
-    price: 9419,
-    image: "http://dummyimage.com/350x350.png/5fa2dd/ffffff",
-    description:
-      "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+    name: "Classic Wristwatch",
+    price: 4449,
+    image:
+      "https://images.unsplash.com/photo-1623998022151-6a4df88517cd?auto=format&fit=crop&q=80&w=2493&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Elevate your everyday style with this elegant wristwatch! ",
   },
 ];
 

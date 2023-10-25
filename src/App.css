@@ -18,6 +18,11 @@ body {
   font-family: kanit, sans-serif;
   padding: 50px;
   background-color: var(--muted-color-100);
+  background: linear-gradient(
+    to bottom,
+    var(--muted-color-100),
+    var(--primary-color)
+  );
 }
 
 .app-wrapper {
@@ -101,7 +106,7 @@ button:hover {
 /* Cart Styles */
 
 .cart-heading {
-  color: var(--primary-color);
+  color: var(--muted-color-100);
   font-size: 30px;
   margin-bottom: 20px;
 }
